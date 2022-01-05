@@ -1266,7 +1266,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
 
 
@@ -2029,7 +2029,7 @@ jobs:
 
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
           name: Dwikorm
@@ -2284,7 +2284,7 @@ jobs:
 
 
           command: |
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
           name: Ranuer
@@ -2545,7 +2545,7 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
 
 
@@ -2797,7 +2797,7 @@ jobs:
 
 
 
-    parallelism: 1
+    parallelism: 15
   Aaxa:
     docker:
 
@@ -3564,7 +3564,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
       - run:
           name: Buioewe
@@ -4077,7 +4077,7 @@ jobs:
 
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -4332,7 +4332,7 @@ jobs:
 
           name: Dwikorm
           command: |
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
 
 
@@ -4843,7 +4843,7 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
 
 
@@ -5095,7 +5095,7 @@ jobs:
 
 
 
-    parallelism: 1
+    parallelism: 15
   Kabaca:
 
 
@@ -5862,7 +5862,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
       - run:
 
@@ -6375,7 +6375,7 @@ jobs:
           name: Seiroer
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -6630,7 +6630,7 @@ jobs:
 
           name: Dwikorm
           command: |
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
 
 
@@ -7141,9 +7141,9 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
-    parallelism: 1
+    parallelism: 15
   Aalasun:
 
 
@@ -8160,7 +8160,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
 
 
@@ -8923,7 +8923,7 @@ jobs:
           name: Seiroer
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
 
 
@@ -9428,7 +9428,7 @@ jobs:
 
 
 
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
           name: Ranuer
@@ -9689,7 +9689,7 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
 
 
@@ -9941,7 +9941,7 @@ jobs:
 
 
 
-    parallelism: 1
+    parallelism: 15
   Raaaloka:
     docker:
 
@@ -10958,7 +10958,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
       - run:
 
@@ -11471,7 +11471,7 @@ jobs:
           name: Seiroer
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -11726,7 +11726,7 @@ jobs:
 
           name: Dwikorm
           command: |
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -12237,7 +12237,7 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
 
 
@@ -12489,7 +12489,7 @@ jobs:
 
 
 
-    parallelism: 1
+    parallelism: 15
   Paoamelua:
     docker:
 
@@ -13256,7 +13256,7 @@ jobs:
             ./b
             ./d
             ./mbc
-            ./00
+            ./08
             ./c
       - run:
 
@@ -13769,7 +13769,7 @@ jobs:
           name: Seiroer
           command: |
             ./e1
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -14024,7 +14024,7 @@ jobs:
 
           name: Dwikorm
           command: |
-            #./e2 && ./e3
+            ./e2 && ./e3
             ./e4
       - run:
 
@@ -14535,7 +14535,7 @@ jobs:
             ./f2
             ./f3
             ./g1
-            #./g2 && ./e3
+            ./g2 && ./e3
             ./e4
 
 
@@ -14787,7 +14787,7 @@ jobs:
 
 
 
-    parallelism: 1
+    parallelism: 15
 workflows:
     version: 2.1
     build:
